@@ -1,0 +1,26 @@
+{
+    "name": "Event",
+    "number": 10,
+    "path_to_truth": "/Users/lorenzosanti/Desktop/paper_PFlow/test_skim.root",
+
+    "draw calo" : true,
+    "granularity" : [ 256, 128, 128, 64, 64, 32],
+    "zscale" : "lin",
+
+    "draw tracks" : true,
+
+    "draw particles": false,
+    
+    "draw truthjets": false,
+    "draw pflowjets": false, 
+
+    "eta min" : -3,
+    "eta max" : 3,
+    "phi min" : "-PI",
+    "phi max" : "PI",
+    
+    "save image" : false,
+    "save html" : true, 
+    "name fig" : "calo"
+
+}

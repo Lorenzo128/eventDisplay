@@ -1,0 +1,37 @@
+{
+    "name": "Event",
+    "number": 10,
+    "path_to_truth": "/Users/lorenzosanti/Desktop/paper_PFlow/test_skim.root",
+
+    "draw calo" : false,
+    "draw tracks" : false,
+
+    "draw particles": ["Photon", "Charged Hadron", "Neutral Hadron"],
+    
+    "draw truthjets": {
+
+        "color" : "#A34A00",
+        "name" : "Truth Jet",
+        "line" : "solid"
+
+    },
+    "draw pflowjets": {
+        "color" : "#FFD8C4",
+        "name" : "PFlow Jet",
+        "line" : "dash"
+
+    },
+    "only cone": false,
+    "R cone" : 0.6,
+
+
+    "eta min" : -3,
+    "eta max" : 3,
+    "phi min" : "-PI",
+    "phi max" : "PI",
+    
+    "save image" : false,
+    "save html" : true, 
+    "name fig" : "event"
+
+}
